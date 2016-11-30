@@ -29,6 +29,16 @@ it ensures the entire code base is sound and consistently
 structured as if it were all written at the same time 
 in the recent past.
 
+Exercises
+---------------
+
+1. Generates server.cs and client.js in dist
+
+   $ gulp --gulpfile gulpfile-01.js
+
+2. Finds custom sections and replaces them with
+   custom code
+
 
 
 
