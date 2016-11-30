@@ -13,7 +13,7 @@ const customerModel = {
 }
 
 gulp.task('default', () => 
-    gulp.src('template/server.cs')
+    gulp.src('template/*')
         .pipe(data(() => customerModel))
         .pipe(template())
         .pipe(gulp.dest('dist')));
